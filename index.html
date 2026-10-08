@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aldo Flores — Fotografía</title>
+  <meta name="description" content="Fotografía artística de Aldo Flores.">
+  <meta property="og:title" content="Aldo Flores — Fotografía">
+  <meta property="og:description" content="Fotografía artística de Aldo Flores.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aldoflores.mx/">
+  <meta property="og:image" content="https://aldoflores.mx/fotos/niebla-01.jpg">
+  <meta name="theme-color" content="#0e0e0e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <a class="marca" href="#inicio">Aldo Flores</a>
+    <nav class="menu" aria-label="Principal">
+      <a href="#obra">Obra</a>
+      <a href="#acerca">Acerca</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="portada">
+      <img id="portada-img" src="fotos/niebla-01.jpg" alt="">
+      <div class="portada-texto">
+        <h1>Aldo Flores</h1>
+        <p>Fotografía</p>
+      </div>
+      <a class="bajar" href="#obra" aria-label="Ver obra">↓</a>
+    </section>
+
+    <section id="obra" class="obra">
+      <div class="series" role="tablist" aria-label="Series"></div>
+      <div class="galeria" id="galeria"></div>
+    </section>
+
+    <section id="acerca" class="acerca">
+      <h2>Acerca</h2>
+      <p>
+        Escribe aquí una breve declaración de artista: qué te mueve a fotografiar,
+        los temas que exploras y cómo trabajas. Dos o tres párrafos bastan.
+      </p>
+      <p>
+        Puedes añadir exposiciones, publicaciones o reconocimientos en una lista corta.
+      </p>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2>Contacto</h2>
+      <p>Para exposiciones, encargos o adquisición de impresiones:</p>
+      <p><a class="correo" href="mailto:hola@aldoflores.mx">hola@aldoflores.mx</a></p>
+      <p class="redes">
+        <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>© <span id="anio"></span> Aldo Flores. Todas las imágenes protegidas por derechos de autor.</p>
+  </footer>
+
+  <div class="visor" id="visor" role="dialog" aria-modal="true" aria-label="Fotografía ampliada" hidden>
+    <button class="visor-cerrar" aria-label="Cerrar">×</button>
+    <button class="visor-nav visor-ant" aria-label="Anterior">‹</button>
+    <figure>
+      <img id="visor-img" alt="">
+      <figcaption id="visor-pie"></figcaption>
+    </figure>
+    <button class="visor-nav visor-sig" aria-label="Siguiente">›</button>
+  </div>
+
+  <script src="js/fotos.js"></script>
+  <script src="js/galeria.js"></script>
+</body>
+</html>
