@@ -14,7 +14,6 @@ y abre http://localhost:8000
 
 1. Copia la imagen a `fotos/` (JPG, ~2000 px en el lado largo y calidad 80 es un buen equilibrio entre nitidez y peso).
 2. Agrega una entrada en `js/fotos.js` con `archivo`, `titulo` y `serie`.
-3. Borra las imágenes de ejemplo (`niebla-*`, `desierto-*`, `ciudad-*`) y sus entradas.
 
 Cada `serie` distinta genera un filtro sobre la galería. Marca una foto con `portada: true` para usarla en la portada.
 
