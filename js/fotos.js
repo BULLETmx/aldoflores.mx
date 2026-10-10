@@ -10,9 +10,14 @@
 //   portada:     true para usarla como imagen de portada (solo una)
 
 const FOTOS = [
-  { archivo: "londres-parada.jpg",   titulo: "No stopping",       serie: "Ciudad",   portada: true },
-  { archivo: "berlin-columna.jpg",   titulo: "Siegessäule",       serie: "Ciudad" },
-  { archivo: "planta.jpg",           titulo: "Planta",            serie: "Interior" },
-  { archivo: "edificio-arboles.jpg", titulo: "Fachada y hojas",   serie: "Ciudad" },
-  { archivo: "cocina.jpg",           titulo: "Cocina",            serie: "Interior" },
+  { archivo: "londres-parada.jpg",    titulo: "No stopping",          serie: "Ciudad",     portada: true },
+  { archivo: "cuarto-ventana.jpg",    titulo: "Ventana",              serie: "Interiores" },
+  { archivo: "banca-lago.jpg",        titulo: "Banca frente al lago", serie: "Paisaje" },
+  { archivo: "berlin-columna.jpg",    titulo: "Siegessäule",          serie: "Ciudad" },
+  { archivo: "planta.jpg",            titulo: "Planta",               serie: "Interiores" },
+  { archivo: "magnolias-iglesia.jpg", titulo: "Magnolias",            serie: "Paisaje" },
+  { archivo: "edificio-arboles.jpg",  titulo: "Fachada y hojas",      serie: "Ciudad" },
+  { archivo: "cuarto-televisor.jpg",  titulo: "Habitación",           serie: "Interiores" },
+  { archivo: "parque-secuoya.jpg",    titulo: "Secuoya",              serie: "Paisaje" },
+  { archivo: "cocina.jpg",            titulo: "Cocina",               serie: "Interiores" },
 ];
